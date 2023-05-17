@@ -5,11 +5,11 @@
       <!-- <router-link to="/about">About</router-link> -->
     </nav>
     <div class="d-flex">
-      <div class="d-inline-block" style="width: 60%; height: 100%">
-        <router-view/>
-      </div>
       <div class="d-inline-block" style="width: 40%;">
         <MovieInfo style="height: 100%"/>
+      </div>
+      <div class="d-inline-block" style="width: 60%; height: 100%">
+        <router-view/>
       </div>
     </div>
     
